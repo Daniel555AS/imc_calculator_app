@@ -11,4 +11,7 @@ class AppColors {
   static const Color backgroundComponent = Color(0XFF1D1E33);
   static const Color backgroundComponentSelected = Color(0xFF4F548B);
 
+  // Icons
+  static const Color genderSelectorIconColor = Color.fromARGB(255, 243, 219, 254);
+
 }
