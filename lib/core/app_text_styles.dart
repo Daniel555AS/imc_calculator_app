@@ -34,4 +34,11 @@ class AppTextStyles {
     color: AppColors.textTitleHome,
     fontWeight: FontWeight.w700,
   );
+
+  // Button
+    static const TextStyle buttonText = TextStyle(
+    fontSize: 16,
+    color: AppColors.textTitleHome,
+    fontWeight: FontWeight.w700,
+  );
 }

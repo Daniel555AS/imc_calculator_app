@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:imc_app/components/gender_selector.dart';
 import 'package:imc_app/components/height_selector.dart';
 import 'package:imc_app/components/number_selector.dart';
+import 'package:imc_app/core/app_colors.dart';
+import 'package:imc_app/core/app_text_styles.dart';
 
 class ImcHomeScreen extends StatefulWidget {
   const ImcHomeScreen({super.key});
@@ -37,7 +39,7 @@ class _ImcHomeScreenState extends State<ImcHomeScreen> {
                   },
                   increase: () {
                     setState(() {
-                      if(selectedWeight < 300) {
+                      if (selectedWeight < 300) {
                         selectedWeight++;
                       }
                     });
@@ -58,7 +60,7 @@ class _ImcHomeScreenState extends State<ImcHomeScreen> {
                   },
                   increase: () {
                     setState(() {
-                      if(selectedAge < 130) {
+                      if (selectedAge < 130) {
                         selectedAge++;
                       }
                     });
@@ -69,7 +71,23 @@ class _ImcHomeScreenState extends State<ImcHomeScreen> {
           ),
         ),
         Spacer(),
-        FloatingActionButton(onPressed: () {}),
+        Padding(
+          padding: const EdgeInsets.only(bottom: 30.0, top: 30.0, left: 16.0, right: 16.0),
+          child: SizedBox(
+            height: 55.0,
+            width: double.infinity,
+            child: ElevatedButton(
+              onPressed: () {},
+              style: ButtonStyle(
+                shape: WidgetStateProperty.all(RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(20.0)
+                )),
+                backgroundColor: WidgetStateProperty.all(AppColors.primary),
+              ),
+              child: Text("Continuar", style: AppTextStyles.buttonText),
+            ),
+          ),
+        ),
       ],
     );
   }
