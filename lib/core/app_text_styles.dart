@@ -21,4 +21,17 @@ class AppTextStyles {
     fontSize: 40.0,
     fontWeight: FontWeight.w700,
   );
+
+  // Number Selector
+    static const TextStyle numberSelectorText = TextStyle(
+    color: Colors.white,
+    fontSize: 30.0,
+    fontWeight: FontWeight.w700,
+  );
+
+    static const TextStyle numberSelectorTitleText = TextStyle(
+    fontSize: 16,
+    color: AppColors.textTitleHome,
+    fontWeight: FontWeight.w700,
+  );
 }
