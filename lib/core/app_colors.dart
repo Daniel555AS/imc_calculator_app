@@ -1,6 +1,7 @@
 import 'dart:ui';
 
 class AppColors {
+  // Colors
   static const Color primary = Color(0xFF6200EA);
   static const Color secondary = Color(0xFF1F0345);
   static const Color accent = Color(0xFFFFC400);

@@ -23,22 +23,41 @@ class AppTextStyles {
   );
 
   // Number Selector
-    static const TextStyle numberSelectorText = TextStyle(
+  static const TextStyle numberSelectorText = TextStyle(
     color: Colors.white,
     fontSize: 30.0,
     fontWeight: FontWeight.w700,
   );
 
-    static const TextStyle numberSelectorTitleText = TextStyle(
+  static const TextStyle numberSelectorTitleText = TextStyle(
     fontSize: 16,
     color: AppColors.textTitleHome,
     fontWeight: FontWeight.w700,
   );
 
   // Button
-    static const TextStyle buttonText = TextStyle(
+  static const TextStyle buttonText = TextStyle(
     fontSize: 16,
     color: AppColors.textTitleHome,
     fontWeight: FontWeight.w700,
+  );
+
+  // IMC Result Screen
+  static const TextStyle resultsTitleText = TextStyle(
+    fontSize: 30,
+    color: AppColors.textTitleHome,
+    fontWeight: FontWeight.w900,
+  );
+
+  static const TextStyle imcResultText = TextStyle(
+    fontSize: 70,
+    color: AppColors.textTitleHome,
+    fontWeight: FontWeight.w900,
+  );
+
+    static const TextStyle imcResultDescriptionText = TextStyle(
+    fontSize: 25,
+    color: AppColors.textTitleHome,
+    
   );
 }
