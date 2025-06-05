@@ -1,7 +1,5 @@
 # Body Mass Index (BMI) Calculator App
 
----
-
 ## Introduction
 
 The development of this application is part of my learning process in Flutter and Dart, tools for cross-platform mobile application development. As a formative project, a Body Mass Index (BMI) calculator app has been designed and built, aimed at allowing users to quickly estimate their nutritional status based on basic data such as weight and height.
@@ -10,8 +8,12 @@ This project has been a valuable opportunity to apply various essential concepts
 
 ## Technological Stack
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/1/17/Google-flutter-logo.png" alt="Flutter Logo" title="Flutter" width="100" style="margin-right: 30px;"/> 
-<img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Dart-logo.png" alt="Dart Logo" title="Dart" width="50"/>
+<p>
+  <img width="25% "src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQR6TF_NlRJ_xyK_MRu5n73kTCVvo7wDXakjA&s" alt="Flutter Logo" title="Flutter" />
+  &nbsp;&nbsp;&nbsp;
+  <img width="23%" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSO0vEtrs0YL8YUyxXWfHnAY54rKS5VHZmWXw&s" alt="Dart Logo" title="Dart"/>
+</p>
+
 
 ## Acknowledgments
 
