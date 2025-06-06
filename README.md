@@ -18,3 +18,9 @@ This project has been a valuable opportunity to apply various essential concepts
 ## Acknowledgments
 
 This application was developed by following the guidance provided by [AristiDevs](https://github.com/ArisGuimera) through his FLUTTER and DART course. I sincerely thank him for the creation of this educational material, which has been instrumental in my learning process and in the successful development of this project.
+
+## Results
+
+<p align="center">
+  <img src="assets/images/imc_app.gif" width="300"/>
+</p>
